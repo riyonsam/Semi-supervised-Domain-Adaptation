@@ -1,0 +1,31 @@
+# Dataset (too large for GitHub)
+data/VisDA/
+data/visda/
+ml_data/
+
+# Model checkpoints
+*.pth
+*.pt
+best_model.pth
+best_ema_shadow.pth
+
+# SLURM logs (copy locally before committing if you want to keep them)
+slurm-*.out
+slurm-*.err
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+*.egg-info/
+
+# Mac
+.DS_Store
+
+# Claude
+.claude/
+
+# Jupyter
+.ipynb_checkpoints/
